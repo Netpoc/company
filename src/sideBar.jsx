@@ -6,7 +6,7 @@ import { Col } from 'react-bootstrap';
 
 function SideBar() {
     return (
-        <Container className="mt-3" fluid="md">
+        <Container fluid="md">
         <Row>
             <Col>
             <Card style={{ width: '18rem' }}>
@@ -17,7 +17,16 @@ function SideBar() {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Row>
+                <Col>
+                <Button variant="primary">Accept</Button>
+                </Col>
+                <Col>
+                <Button variant="danger">Reset</Button>
+                </Col>
+            </Row>
+            
+            
     </Card.Body>
 </Card>
             </Col>
@@ -32,7 +41,14 @@ function SideBar() {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Row>
+                <Col>
+                <Button variant="primary">Accept</Button>
+                </Col>
+                <Col>
+                <Button variant="danger">Reset</Button>
+                </Col>
+            </Row>
     </Card.Body>
 </Card>
             </Col>

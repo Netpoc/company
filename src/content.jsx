@@ -8,21 +8,25 @@ function ContainerFluidBreakpointExample() {
     <Container fluid="md">      
       <Row>
         <Col md={3}>
-        <Form.Select aria-label="Default select example">
-      <option>Open this select menu</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-    </Form.Select>
-    </Col>
-    <Col md={3}>
-    <Form.Select aria-label="Default select example">
-      <option>Open this select menu</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-    </Form.Select>
-    </Col>
+            <Form.Select aria-label="Default select example">
+            <option>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            </Form.Select>
+        </Col>
+        <Col md={3}>
+            <Form>
+            
+                <Form.Label>Average Stake</Form.Label>
+                <Form.Control type="number"/>
+            
+            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                <Form.Label>Example textarea</Form.Label>
+                <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+            </Form>
+        </Col>
       </Row>
     </Container>
   );
