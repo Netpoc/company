@@ -10,7 +10,7 @@ function SideBar() {
         <Row>
             <Col>
             <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="holder.js/100px180" />
+    <Card.Img variant="top" src="https://res.cloudinary.com/netpoc-inc/image/upload/v1685869708/business-strategy-success-target-goals_ivxfcc.jpg" />
     <Card.Body>
         <Card.Title>Card Title</Card.Title>
             <Card.Text>
@@ -34,7 +34,7 @@ function SideBar() {
         <Row className="mt-3">
             <Col>
             <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="holder.js/100px180" />
+    <Card.Img variant="top" src="https://res.cloudinary.com/netpoc-inc/image/upload/v1685869708/business-strategy-success-target-goals_ivxfcc.jpg" />
     <Card.Body>
         <Card.Title>Card Title</Card.Title>
             <Card.Text>

@@ -17,10 +17,10 @@ function ContainerFluidBreakpointExample() {
         </Col>
         <Col md={3}>
             <Form>
-            
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Average Stake</Form.Label>
                 <Form.Control type="number"/>
-            
+            </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Example textarea</Form.Label>
                 <Form.Control as="textarea" rows={3} />
