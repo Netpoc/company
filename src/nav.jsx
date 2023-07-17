@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Badge from 'react-bootstrap/Badge';
 
 function NavScrollExample() {
   return (
@@ -17,8 +18,8 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">People</Nav.Link>
-            <Nav.Link href="#action2">Violations</Nav.Link>
+            <Nav.Link href="#action1">People <Badge pill bg="danger">84</Badge></Nav.Link>
+            <Nav.Link href="#action2">Violations <Badge pill bg="danger">42</Badge> </Nav.Link>
             <Nav.Link href="#action2">Stattistics</Nav.Link>
             <Nav.Link href="#action2">Settings</Nav.Link>
             

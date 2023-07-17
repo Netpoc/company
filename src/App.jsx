@@ -22,31 +22,56 @@ function ContainerFluidBreakpointExample() {
           <option value="3">Type C</option>
         </Form.Select>
         </Col>
-        <Col md={2}>
-        <Form>
-            <Form.Group controlId="exampleForm.ControlInput1">
-                <Form.Label>Average Stake</Form.Label>
-                <Form.Control size="sm" type="number"/>
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                <Form.Label>Daily No</Form.Label>
-                <Form.Control size="sm" type='number'/>
-            </Form.Group>
-            </Form>
-        </Col>
         <Col>
-        
-        </Col>
-          </Row>
-          <Row>
-            <Col>
-            <p aria-hidden="true">
-        <Placeholder md={8} />
-      </p>
-
-      <Placeholder.Button md={4} aria-hidden="true" />
-            </Col>
-          </Row>
+          <Card body>
+            <Card.Title>Assumptions</Card.Title>
+            <Form>
+              <Row>
+                <Col>
+                  <Form.Label>Online Portion</Form.Label>
+                  <Form.Control size="sm" placeholder="First name" />
+                </Col>
+                <Col>
+                  <Form.Label>Education & Healthcare</Form.Label>
+                  <Form.Control size="sm" placeholder="Last name" />
+                </Col>
+                <Col>
+                  <Form.Label>Admin & All</Form.Label>
+                  <Form.Control size="sm" placeholder="Last name" />
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Form.Label>Vendors Num</Form.Label>
+                  <Form.Control size="sm" placeholder="First name" />
+                </Col>
+                <Col>
+                  <Form.Label>Cash Reserves</Form.Label>
+                  <Form.Control size="sm" placeholder="Last name" />
+                </Col>
+                <Col>
+                  <Form.Label>Commision Rate</Form.Label>
+                  <Form.Control size="sm" placeholder="Last name" />
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Form.Label>Weekly Increament</Form.Label>
+                  <Form.Control size="sm" placeholder="First name" />
+                </Col>
+                <Col>
+                  <Form.Label>Second Chance Draw</Form.Label>
+                  <Form.Control size="sm" placeholder="Last name" />
+                </Col>
+                <Col>
+                  <Form.Label>No of Games</Form.Label>
+                  <Form.Control size="sm" placeholder="Last name" />
+                </Col>
+              </Row>
+          </Form>
+          </Card>
+        </Col>        
+          </Row>          
         </Col>
         <Col></Col>
         <Col md={3}>
