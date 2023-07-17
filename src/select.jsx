@@ -3,7 +3,7 @@ import React from 'react';
 const SelectOption = ({ options, onChange }) => {
   return (
     <div className="form-group">
-      <label htmlFor="selectOption">Select an item:</label>
+      <label htmlFor="selectOption">Game:</label>
       <select
         className="form-control"
         id="selectOption"
