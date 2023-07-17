@@ -1,11 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import SideBar from './sideBar';
-import Placeholder from 'react-bootstrap/Placeholder';
+import Form from 'react-bootstrap/Form'
 import { Stack } from 'react-bootstrap';
 
 import { useState } from 'react';
@@ -252,84 +251,172 @@ function ContainerFluidBreakpointExample() {
         <Col md={8}>
           <Stack direction='vertical' gap={5}>
             <div>
-            <Row>
-            <Col md={3}>
-            <SelectOption
-        options={[
-          { id: 1, name: 'Item 1' },
-          { id: 2, name: 'Item 2' },
-          { id: 3, name: 'Item 3' },
-        ]}
-        onChange={handleSelectChange}
-      />
-            </Col>
-            <Col>
-              <Card body>
-                <Card.Title>Assumptions</Card.Title>                
-                  <Row>
-                  <DisplayInfo selectedItem={selectedItem} />
-                  </Row>  
-              </Card>
-            </Col>        
-          </Row> 
+              <Row>
+                <Col md={3}>
+                  <SelectOption
+                    options={[
+                      { id: 1, name: 'Mega Million' },
+                      { id: 2, name: 'Powerball Game' },
+                      { id: 3, name: 'CASH4LIFE' },
+                      { id: 4, name: 'CASH4SCHOOL' },
+                      { id: 5, name: 'SET4LIFE' },
+                      { id: 6, name: 'MARYLAND' },
+                      { id: 7, name: 'GEORGIA' },
+                      { id: 8, name: 'FLORIDA' },
+                      { id: 9, name: 'WASHINGTON' },
+                      { id: 10, name: 'NEW YORK' },
+                      { id: 11, name: 'MICHIGAN' },
+                      { id: 12, name: 'MINNESOTA' },
+                      { id: 13, name: 'ARIZONA' },
+                      { id: 14, name: 'MIAMI' },
+                      { id: 15, name: 'DALLAS' },
+                      { id: 16, name: 'DIRECT GAMES' },
+                    ]}
+                    onChange={handleSelectChange}
+                  />
+                </Col>
+                <Col>
+                  <Card body>
+                    <Card.Title>Assumptions</Card.Title>
+                    <Row>
+                      <DisplayInfo selectedItem={selectedItem} />
+                    </Row>
+                  </Card>
+                </Col>
+              </Row>
             </div>
             <>
-            <Row>
-              <Col>
-              <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Placeholder as={Card.Title} animation="glow">
-            <Placeholder xs={5} />
-          </Placeholder>
-          <Placeholder as={Card.Text} animation="glow">
-            <Placeholder xs={7} /> <Placeholder xs={4} /> <Placeholder xs={4} />{' '}
-            <Placeholder xs={6} /> <Placeholder xs={8} />
-          </Placeholder>
-          <Placeholder.Button variant="primary" xs={6} />
-        </Card.Body>
-            </Card>
-              </Col>
-              <Col>
-              </Col>
-              <Col>
-              <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Placeholder as={Card.Title} animation="glow">
-            <Placeholder xs={6} />
-          </Placeholder>
-          <Placeholder as={Card.Text} animation="glow">
-            <Placeholder xs={7} /> <Placeholder xs={4} /> <Placeholder xs={4} />{' '}
-            <Placeholder xs={6} /> <Placeholder xs={8} />
-          </Placeholder>
-          <Placeholder.Button variant="primary" xs={6} />
-        </Card.Body>
-            </Card>
-              </Col>
-            </Row>
+              <Row>
+                <Col md={6}>
+                  <Card>
+                    <Card.Body>
+                    <Row className='mb-2'>
+                        <Col>
+                         
+                        </Col>
+                        <Col>
+                          Ave Stake
+                        </Col>
+                        <Col>
+                          Ave Ticket/Day
+                        </Col>
+                      </Row>
+                      <Row className='mb-2'>
+                        <Col md={1}>
+                        <Form.Check />
+                        </Col>
+                        <Col>
+                          Game 1
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                      </Row>
+                      <Row className='mb-2'>
+                      <Col md={1}>
+                        <Form.Check />
+                        </Col>
+                        <Col>
+                        Game 2
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                      </Row>
+                      <Row className='mb-2'>
+                      <Col md={1}>
+                        <Form.Check />
+                        </Col>
+                        <Col>
+                        Game 3
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                      </Row>
+                      <Row className='mb-2'>
+                      <Col md={1}>
+                        <Form.Check />
+                        </Col>
+                        <Col>
+                        Game 4
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                      </Row>
+                      <Row>
+                      <Col md={1}>
+                        <Form.Check />
+                        </Col>
+                        <Col>
+                        Game 5
+                        </Col>
+                        <Col>
+                          <Form.Control />
+                        </Col>
+                        <Col>
+                          <Form.Control  />
+                        </Col>
+                      </Row>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col>
+                </Col>
+                <Col md={4}>
+                  <Card>
+                    <Row>
+                      <Col className='m-3'>
+                      <Form.Label>Average Stake</Form.Label>
+                      <Form.Control size="sm" />
+                  
+                      </Col>
+                      <Col className='m-3'>
+                      <Form.Label>Ave. Ticket/Day</Form.Label>
+                  <Form.Control size="sm" />
+                      </Col>
+                    </Row>
+                  </Card>
+                </Col>
+                <Col>
+                  
+                </Col>
+              </Row>
             </>
             <div>
-            <Row>
+              <Row>
                 <Col>
-                <Button variant="primary">Accept</Button>
+                  <Button variant="primary">Accept</Button>
                 </Col>
                 <Col md={9}>
-                
+
                 </Col>
                 <Col>
-                <Button variant="danger">Reset</Button>
+                  <Button variant="danger">Reset</Button>
                 </Col>
-            </Row>
+              </Row>
             </div>
           </Stack>
         </Col>
-              
+
         <Col md={4}>
-        <SideBar />
+          <SideBar />
         </Col>
-      </Row>     
-        
+      </Row>
+
     </Container>
   );
 }

@@ -22,29 +22,29 @@ const DisplayInfo = ({ selectedItem }) => {
             </div>
             <div className="row">
                 <div className="col">
-                <Form.Label>Online Portion</Form.Label>
+                <Form.Label>Vendor Num</Form.Label>
                       <Form.Control size="sm" placeholder={selectedItem.description} />
                 </div>
                 <div className="col">
-                <Form.Label>Education</Form.Label>
+                <Form.Label>Cash Reserves</Form.Label>
                       <Form.Control size="sm" placeholder={selectedItem.description} />
                 </div>
                 <div className="col">
-                <Form.Label>Admin & All</Form.Label>
+                <Form.Label>Commission Rate</Form.Label>
                       <Form.Control size="sm" placeholder={selectedItem.description} />
                 </div>
             </div>
             <div className="row">
                 <div className="col">
-                <Form.Label>Online Portion</Form.Label>
+                <Form.Label>Weekly Incre</Form.Label>
                       <Form.Control size="sm" placeholder={selectedItem.description} />
                 </div>
                 <div className="col">
-                <Form.Label>Education</Form.Label>
+                <Form.Label>Second Chance Draw</Form.Label>
                       <Form.Control size="sm" placeholder={selectedItem.description} />
                 </div>
                 <div className="col">
-                <Form.Label>Admin & All</Form.Label>
+                <Form.Label>No of Games</Form.Label>
                       <Form.Control size="sm" placeholder={selectedItem.description} />
                 </div>
             </div>

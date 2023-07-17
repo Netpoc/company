@@ -10,7 +10,7 @@ function SideBar() {
         <Row>
             <Col>
             <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="https://res.cloudinary.com/netpoc-inc/image/upload/v1685869708/business-strategy-success-target-goals_ivxfcc.jpg" />
+    <Card.Img variant="top" src="https://res.cloudinary.com/netpoc-inc/image/upload/v1689637069/12_ogqa3m.jpg" />
     <Card.Body>
         <Card.Title>Simulation Result</Card.Title>
             <Card.Text>
@@ -35,7 +35,7 @@ function SideBar() {
         <Row className="mt-3">
             <Col>
             <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="https://res.cloudinary.com/netpoc-inc/image/upload/v1685869708/business-strategy-success-target-goals_ivxfcc.jpg" />
+    <Card.Img variant="top" src="https://res.cloudinary.com/netpoc-inc/image/upload/v1689637069/12_ogqa3m.jpg" />
     <Card.Body>
         <Card.Title>All Simulations</Card.Title>
             <Card.Text>
