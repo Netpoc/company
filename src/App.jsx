@@ -397,12 +397,12 @@ function ContainerFluidBreakpointExample() {
               </Row>
             </>
             <div>
-              <Row>
+              <Row className="justify-content">
                 <Col>
                   <Button variant="primary">Accept</Button>
                 </Col>
                 <Col md={9}>
-
+                <Button variant="primary">Run Simulaion</Button>
                 </Col>
                 <Col>
                   <Button variant="danger">Reset</Button>
