@@ -1,0 +1,48 @@
+.my-container {
+  height: 10vh; /* Set the height of the container to full viewport height */
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+
+.custom-card-img {
+  width: 100; /* Set the desired width */
+  height: 130px; /* Set the desired height */
+  object-fit: cover; /* Adjust image aspect ratio */
+  transition: transform 0.3s;
+}
+.custom-card-img.expanded {
+  transform: scale(2.1); /* Adjust the desired scale value */
+}
+.card-body {
+  height: 100%; /* Set the height of the card body to occupy its parent */
+}
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px; 
+}
+
+.custom-label {
+  margin-bottom: 0.1rem; /* Adjust the desired spacing between label and control */
+}
+
+.custom-control {
+  padding-top: 0.1rem; /* Adjust the desired top padding for the control */
+  width: 150px;
+  height: 5px;
+  text-align: center;
+}
+
+.custom-control-dg {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  font-size: 13px; 
+}
+.custom-label-dg {
+  margin-bottom: 0.1rem; /* Adjust the desired spacing between label and control */
+  text-align: center;
+}
